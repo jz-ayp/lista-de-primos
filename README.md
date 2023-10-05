@@ -7,7 +7,7 @@
 
 - **Diseña un programa para encontrar la lista de números primos menores o iguales a un número entero dado**.
 
-- Codifica tu solución en el archivo [`main.py`](/main.py).
+- Codifica tu solución en el archivo [`lista_primos.py`](/lista_primos.py).
    
 - Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas:
   ```

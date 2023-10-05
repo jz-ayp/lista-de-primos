@@ -3,7 +3,7 @@
     on:
       push:
         paths:
-          - 'main.py'
+          - 'lista_primos.py'
           - '.github/classroom/autograding.json'
 
     jobs:
