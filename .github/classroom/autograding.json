@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "2",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "2",
+      "output": "^\D*2\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "3",
+      "output": "^\D*2\D+3\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "4",
+      "output": "^\D*2\D+3\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "5",
+      "output": "^\D*2\D+3\D+5\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "6",
+      "output": "^\D*2\D+3\D+5\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "10",
+      "output": "^\D*2\D+3\D+5\D+7\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "30",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "30",
+      "output": "^\D*2\D+3\D+5\D+7\D+11\D+13\D+17\D+19\D+23\D+29\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "100",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "100",
+      "output": "^\D*2\D+3\D+5\D+7\D+11\D+13\D+17\D+19\D+23\D+29\D+31\D+37\D+41\D+43\D+47\D+53\D+59\D+61\D+67\D+71\D+73\D+79\D+83\D+89\D+97\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+  ]
+}
