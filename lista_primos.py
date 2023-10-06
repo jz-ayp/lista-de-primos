@@ -51,12 +51,12 @@ def get_factors(n):
         i += 1
     return factors
 		
-primes = [2, 3]
+primes = [2]
 #n = 600851475143
 n = int(input("Introduzca un número: "))
 #factors = prime_factors(n)
 #factors = get_factors(n)
-for i in range(2, n):
+for i in range(2, n+1):
     is_prime(i)
 
 print(primes)
