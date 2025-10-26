@@ -5,7 +5,7 @@
 ## Instrucciones
 - Elabora el análisis y el algoritmo ***antes de escribir el código***. Utiliza un diagrama de flujo para representar tu algoritmo e ilustrar su lógica.
 
-- **Diseña un programa para encontrar la lista de números primos menores o iguales a un número entero dado**.
+- **Diseña un programa para encontrar la lista de números primos menores o iguales a un número entero positivo dado**.
 
 - Codifica tu solución en el archivo [`lista_primos.py`](/lista_primos.py).
    
